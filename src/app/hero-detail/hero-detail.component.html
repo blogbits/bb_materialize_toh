@@ -1,0 +1,12 @@
+<div *ngIf="hero">
+    <h4>Hero Details</h4>
+    <div><span>id: </span>{{hero.id}}</div>
+    <div>
+      <label> Hero's name:
+        <input [(ngModel)]="hero.name" placeholder="name" />
+      </label>
+    </div>
+  </div>
+  <a class="waves-effect waves-light btn-small red lighten-2" (click)="save() ">Save</a> 
+  <a class="waves-effect waves-light btn-small red lighten-2" (click)="goBack() ">Back</a>
+  <a class="waves-effect waves-light btn-small red lighten-2" (click)="delete() ">Delete</a> 

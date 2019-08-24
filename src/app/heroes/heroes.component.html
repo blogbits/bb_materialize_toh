@@ -1,0 +1,13 @@
+<h3>Heroes</h3>
+
+<div>
+<label>Add new hero name: 
+  <input #heroName placeholder="name"/>
+</label>
+
+<a class="waves-effect waves-light btn-small red" (click)="add(heroName.value); heroName.value=''">Save</a>
+</div>
+
+<div class="collection">
+  <a *ngFor="let hero of heroes" routerLink="/detail/{{hero.id}}" class="collection-item black-text">{{hero.name}}</a>
+</div>
