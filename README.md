@@ -1,4 +1,4 @@
-# Angualr Toh and Materialize
+# Angular Toh and Materialize
 
 An implementation of the [Augular Tour of Heroes](https://angular.io/tutorial/toh-pt0) styled with [Materialize Css](http://materializecss.com)
 
