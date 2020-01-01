@@ -4,7 +4,7 @@ An implementation of the [Augular Tour of Heroes](https://angular.io/tutorial/to
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9. 
 
-A short blog discussion also available at [https://kleencut.wordpress.com/2019/08/24/materialize-angular-tour-of-heroes/](https://kleencut.wordpress.com/2019/08/24/materialize-angular-tour-of-heroes/)
+A short blog discussion also available at [https://www.kleencut.net/blog/angular-materialize](https://www.kleencut.net/blog/angular-materialize)
 
 
 ### To install
